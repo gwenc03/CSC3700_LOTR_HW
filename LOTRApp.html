@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOTR</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <script type="application/javascript" src="js/charData.js" >
+    </script>
+</head>
+
+<body onLoad="loadData()">
+    <header>
+        <h2 id="title">LOTR Favorites</h2>
+    </header>
+
+    <h3 id="results"> Results are here</h3>
+
+    <h3 id="select"> Select a Character</h3>
+
+<main>
+    <nav>
+        <ol>
+            <li> <a href='#' style="color:yellow"> Home</a></li>
+            <li> <a href='about.html'> About</a></li>
+        </ol>
+    </nav>
+
+    <h4 id="ddtitle"> Select Character</h4>
+
+    <div id = "sellout"> </div>
+
+    <button type="button" id="charInfo" onClick="loadCharData()">
+        Show Character Info</button>
+
+
+    <div id='DOMRes'></div>
+</main>
+</body>
+</html>
